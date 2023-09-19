@@ -6,7 +6,7 @@ import useHasMounted from '@/hooks/useHasMounted'
 import { doc, setDoc } from 'firebase/firestore'
 import { Metadata } from 'next'
 import React, { useState } from 'react'
-export const metadata: Metadata = {
+const metadata: Metadata = {
   title: {
     template: 'LeetClone',
     default: 'LeetClone',
